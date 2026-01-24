@@ -1,0 +1,11 @@
+**INPUTS (I WILL PROVIDE THESE)**
+- Topic:
+- Audience:
+- Deck title:
+- Author name:
+- Date:
+- Desired length (approx slide count):
+- Chapters (if any):
+- Must-include points:
+- Optional: image URLs (or say “use placeholders”):
+- Optional: any metrics/data to tabulate:
