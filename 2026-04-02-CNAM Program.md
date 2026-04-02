@@ -173,7 +173,7 @@ section::after {
 | 07/08/26   | UC Berkeley              | 17:00–18:30 | Applied Data & Validation | Validate idea with data   | Mini-Project Sprint #2                     | Rhonda Schrader + Gauthier Vasseur              |
 | 07/09/26   | UC Berkeley              | 09:00–10:30 | Entrepreneurship          | Build & iterate           | Lean Startup & Iteration                  | Rhonda Schrader                                  |
 | 07/09/26   | UC Berkeley              | 10:45–12:15 | Marketing                 | Reach customers           | Go-To-Market Strategy for Startups        | Holly Roland                                     |
-| 07/09/26   | UC Berkeley              | 13:30–15:00 | Finance & Growth          | Think like investors      | VC Mindset & Scaling Startups             | George                                           |
+| 07/09/26   | UC Berkeley              | 13:30–15:00 | Finance & Growth          | Think like investors      | VC Mindset & Scaling Startups             | George Panagiotakopoulos                                           |
 | 07/09/26   | UC Berkeley              | 15:15–16:45 | Pitching                  | Structure compelling pitch | Pitching with Data & Storytelling         | Gauthier Vasseur                                 |
 | 07/09/26   | UC Berkeley              | 17:00–18:30 | Applied Pitching          | Finalize deck & narrative | Mini-Project Sprint #3 (Pitch Prep)       | Gauthier Vasseur                                 |
 | 07/10/26   | Plug and Play Tech Center | 09:00–10:30 | Capstone                  | Deliver final startup pitch | Final Pitch Competition                   | Jury: Rhonda Schrader, Gauthier Vasseur, Chris Bush, Kateryna Akymenko |
