@@ -1,0 +1,384 @@
+/**
+ * @theme Page_FCBAi_Landscape
+ * @auto-scaling fittingHeader,math
+ */
+
+
+/* =========================
+   PAGE / LAYOUT
+   ========================= */
+
+section {
+  width: 11in;
+  height: 8.5in;
+  color: var(--color_text);
+  padding-left: 0.6in;
+  padding-right: 0.6in;
+  padding-top: 0.5in;
+  padding-bottom: 0.5in;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Brochure Font */
+p, ul, footer, header, th, td, ol, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* =========================
+   THEME VARIABLES (UC BERKELEY)
+   ========================= */
+
+:root{
+  /* Core colors */
+  --c-black: #000000;
+  --c-white: #FFFFFF;
+  --c-muted: #6E6E70;
+
+  /* UC Berkeley Primary */
+  --c-berkeley-blue: #003262;
+  --c-berkeley-gold: #FDB515;
+
+  /* Accent */
+  --c-accent: var(--c-berkeley-gold);
+
+  /* Surfaces / callouts */
+  --c-surface-h4: #FFF3CC;
+  --c-surface-h5: #00326211;
+  --c-surface-h6: #003262;
+
+  /* UI meta */
+  --c-pagination: #6E6E70;
+  --c-footer: #6E6E70;
+
+  /* Table lines */
+  --c-table-line: rgba(0,0,0,.25);
+  --c-table-line-header: rgba(0,0,0,.4);
+
+  /* Semantic tokens */
+  --color_text: var(--c-black);
+  --color_muted: var(--c-muted);
+  --color_accent: var(--c-accent);
+  --color_label_strong: var(--c-black);
+
+  --callout_h4_bg: var(--c-surface-h4);
+  --callout_h4_text: var(--c-black);
+
+  --callout_h5_bg: var(--c-surface-h5);
+  --callout_h5_text: var(--c-berkeley-blue);
+
+  --callout_h6_bg: var(--c-surface-h6);
+  --callout_h6_text: var(--c-white);
+
+  --pagination_color: var(--c-pagination);
+  --footer_color: var(--c-footer);
+
+  --table_line: var(--c-table-line);
+  --table_line_header: var(--c-table-line-header);
+  --table_header_bg: #FFF3CC;
+  --table_row_even_bg: #F5F5F5;
+  --table_col_even_bg: #FFFFFF;
+  --th_color: var(--c-berkeley-blue);
+  --td_color: var(--color_text);
+
+  --lists: var(--color_text);
+  --bullet_nbr: var(--c-accent);
+
+  --bullet_char: "■";
+  --bullet_char_nested: "–";
+  --list_font_size: 12pt;
+  --list_line_height: 1.6;
+  --list_indent: 12px;
+  --bullet_gap: 0.5em;
+  --bullet_size: 1em;
+}
+
+/* --------------------- */
+/* Specific Style Tweaks */
+/* --------------------- */
+
+pre code {
+  color: var(--color_text);
+  font-size: 25px;
+  font-family: 'Monaco', monospace;
+  font-weight: normal;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  line-height: 0.7;
+  padding-left: 2px;
+}
+
+code {
+    color: var(--color_text);
+    font-size: 12px;
+    background: var(--callout_h4_bg);
+    white-space: pre-wrap !important;
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+/* bold accent */
+strong, b{
+  color: var(--color_accent);
+}
+.label strong{
+  color: var(--color_label_strong);
+}
+
+/* headings */
+h1{
+  color: var(--c-berkeley-blue) !important;
+  margin: 0 10px 10px;
+  font-size: 25pt;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h2{
+  color: var(--color_muted);
+  margin: 10px 10px 5px;
+  margin-bottom: 10px;
+  font-size: 16pt;
+}
+
+h3{
+  color: var(--color_text);
+  margin: 10px 10px 5px;
+  margin-bottom: 20px;
+  font-size: 14pt;
+}
+
+/* Callout headings */
+h4{
+  display: inline-block;
+  background: var(--callout_h4_bg);
+  color: var(--callout_h4_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 12pt;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+h4::after, h4::before{ content: none !important; }
+
+h5{
+  display: inline-block;
+  background: var(--callout_h5_bg);
+  color: var(--callout_h5_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 12pt;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+h5::after, h5::before{ content: none !important; }
+
+h6{
+  display: inline-block;
+  background: var(--callout_h6_bg);
+  color: var(--callout_h6_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 14pt;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h6::after, h6::before{ content: none !important; }
+
+/* paragraphs + table text */
+p, td, th{
+  color: var(--color_text);
+  margin: 0 10px 0px;
+  font-size: 12pt;
+  line-height: 1.6;
+  padding-bottom: 7px;
+}
+
+/* ------------- */
+/* Column Styles */
+/* ------------- */
+
+.columns2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  font-size:18px;
+}
+
+.columns3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  font-size:16px;
+}
+
+/* =========================
+   FOOTER / PAGINATION
+   ========================= */
+
+section::after{
+  content: attr(data-marpit-pagination);
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  font-size: 10pt;
+  color: var(--pagination_color);
+}
+
+.custom-footer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 12px;
+  color: var(--footer_color);
+  white-space: nowrap;
+  display: inline-block;
+  pointer-events: none;
+}
+
+/* =========================
+   UTILITIES
+   ========================= */
+
+.block{
+  border: 0px solid var(--color_text);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.page-break{
+  page-break-before: always;
+}
+
+/* =========================
+   TABLES
+   ========================= */
+
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: fit-content;
+  border: none;
+}
+
+th{
+  color: var(--th_color);
+}
+
+td{
+  color: var(--td_color);
+}
+
+th, td{
+  border: none;
+  font-size: 14px;
+  border-bottom: 1px solid var(--table_line);
+  padding: 6px 12px;
+}
+
+thead th{
+  border-bottom: 2px solid var(--table_line_header);
+}
+
+tbody tr:last-child td{
+  border-bottom: none;
+}
+
+section table thead tr th,
+section table tr:first-child th{
+  background-color: var(--table_header_bg) !important;
+}
+
+table tr:nth-child(even){
+  background-color: var(--table_row_even_bg);
+}
+
+td:nth-child(even){
+  background-color: var(--table_col_even_bg) !important;
+}
+
+/* =========================
+   ORDERED LISTS (custom counters)
+   ========================= */
+
+ol{
+  list-style: none;
+  margin: 0;
+  padding-left: 30px;
+  counter-reset: list-counter;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--color_text);
+  padding-bottom: 10px;
+}
+
+ol li{
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 30px;
+}
+
+ol li::before{
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: -10px;
+  top: 0.3em;
+  color: var(--bullet_nbr);
+  font-size: 12pt;
+  line-height: 1;
+}
+
+/* =========================
+   UNORDERED LISTS
+   ========================= */
+
+ul{
+  color: var(--lists);
+  list-style: none;
+  margin: 0;
+  padding-left: var(--list_indent);
+  font-size: var(--list_font_size);
+  line-height: var(--list_line_height);
+  hyphens: none;
+}
+
+ul > li{
+  position: relative;
+  padding-left: calc(var(--bullet_size) + var(--bullet_gap));
+  margin: 0.25em 0;
+  hyphens: none;
+}
+
+ul > li::before{
+  content: var(--bullet_char);
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  color: var(--bullet_nbr);
+  font-size: var(--bullet_size);
+  line-height: 1;
+}
+
+ul ul{
+  margin: 0.25em 0 0;
+  padding-left: calc(var(--list_indent) * 0.8);
+}
+
+ul ul > li::before{
+  content: var(--bullet_char_nested);
+}
