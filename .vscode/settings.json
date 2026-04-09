@@ -1,6 +1,6 @@
 {
     "markdown.marp.themes": [
-        "./styles/FCBAi.css",
-        "./styles/page_FCBAi.css"
+        "./styles/FCBAi.css"
+        "./styles/Page_FCBAi_Landscape.css"
     ]
 }
