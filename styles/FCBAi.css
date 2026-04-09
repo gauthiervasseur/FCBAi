@@ -830,7 +830,7 @@ section.inverted ul b {
 section.inverted ul,
 section.inverted ol,
 section.inverted li {
-  color: var(#FDB515);
+  color: var(--lists_inverted);
 }
 
 /* Tables */

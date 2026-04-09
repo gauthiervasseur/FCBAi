@@ -1,0 +1,592 @@
+№,Company name,Type of the registered entity,Website (eng),EDRPOU code (Ukrainian state registry legal entity identifier),Date of foundation,Number of employees,Please indicate the percentage of gender distribution in сompany management,What is the type of your company:,Please select the AgriTech vertical(s) in which your company operates:,"Please describe your company’s core product(s) / service(s), including:
+- Problem addressed
+- Technology used
+- Key differentiators
+- Advantages",What stage of development is your solution currently at?,Who is the target customer of your company's product / service?,What geographic markets are you currently operating in?,"Has your company participated in international exhibitions, pitching competitions, demo days, or acceleration programs?",Please indicate the names of the events or programs.,What is your current funding status?,"What are the key challenges your company faces when scaling internationally (regulatory, certification, partnerships, financing, localization, etc.)?","Please describe the concrete outcomes you expect from participating in the Program (e.g., partnerships signed, pilot launches, investment raised, export contracts, etc.)."
+1,HEFT,LLC Heft/ ТОВ Хефт,https://heft.systems/,45435842,9/13/2024,7,70/30,Product-Service,"Smart farming / IoT solutions, Farm management software, Agri data analytics / AI solutions, Agri-biotech","HEFT is an AI-powered monitoring system for dairy cows that detects early signs of health problems and fertility cycles using wearable sensors and machine learning.
+
+Problem addressed:
+Dairy farmers still rely largely on manual observation to detect illness and fertility cycles. This leads to late treatment, reproductive losses, increased veterinary costs, and reduced productivity.
+
+Technology used:
+HEFT combines wearable sensors (collars and internal bolus devices), IoT data transmission, and machine learning algorithms to analyze cow behaviour and physiological signals in real time.
+
+Key differentiators:
+Our system focuses on early prediction rather than only activity tracking. It combines multiple sensor types with adaptive AI models trained on farm-specific data.
+
+Advantages:
+HEFT enables farmers to detect problems earlier, improve reproductive efficiency, reduce losses, and manage herd health with data-driven decisions.",MVP,"Our primary target customers are medium and large dairy farms (typically 200+ cows) that are looking to improve herd health management, reproductive efficiency, and overall productivity through data-driven technologies.
+
+Secondary customers include dairy consultants, veterinarians, and herd management advisors who support farms in optimizing herd performance and decision-making.
+
+We focus on professional dairy operations that are actively investing in precision agriculture and smart farm technologies.","We are currently operating primarily in Ukraine, where we collaborate with dairy farms and industry partners through our existing PROFEED network.
+
+We are also expanding internationally and already have pilot collaborations and customer interest in several European countries, including Romania, as well as connections with farms and industry partners in the United States and the EU.
+
+Our strategy is to scale first across Europe and North America, where dairy farms actively adopt precision livestock technologies.",TRUE,"YEP Accelerator (Ukraine)
+Seeds of Bravery Incubator (EU program)
+Nordeep 2025
+World Dairy Expo (USA)
+Viva Technology (France)
+IT Arena Lviv Startup Competition – 2nd Place
+CES 2026 (Las Vegas, USA)
+SelectUSA Investment Summit (USA) 2026",Bootstrapped,"The main challenges in scaling internationally include building strong local partnerships with distributors and industry consultants, adapting the product to different market conditions, and expanding sales and support teams in new regions.
+
+Additionally, hardware certification and logistics for IoT devices across different regulatory environments require time and resources.
+
+Access to growth financing is also critical to accelerate manufacturing, localization, and market entry in the EU and North America.","We expect to establish partnerships with distributors and industry advisors in the US and EU, launch several pilot projects with dairy farms, and validate our solution in new markets.
+
+Additionally, we aim to strengthen investor connections, secure strategic partnerships, and prepare for scaling international sales and manufacturing."
+2,Raymetra,Limited Liability Company (LLC / TOV),https://raymetra.pro/,46039903,2/22/2025,6,90m/10w,Product-Service,Agri data analytics / AI solutions,"Problem addressed
+Bulk storage facilities lack accurate and real-time data on stored material volumes and conditions, leading to inventory errors and inefficiencies.
+
+Technology used
+LiDAR sensors, IoT temperature and humidity sensors, and a cloud software platform for 3D volume measurement and monitoring.
+
+Key differentiators
+Integrated system combining 3D volumetric scanning and environmental monitoring, designed for large bulk storage facilities.
+
+Advantages
+Accurate inventory data, improved safety, and real-time monitoring for better storage management.",MVP,"The target customers are agricultural producers, grain storage operators, and industrial companies that store large volumes of bulk materials. This includes grain elevators, agricultural holdings, grain terminals, feed mills, and processing plants, as well as companies that operate large flat warehouses or silos for materials such as grain, oilseeds, pellets, minerals, or other bulk commodities.","The company currently operates in Ukraine, focusing primarily on the agriculture and bulk storage sector, including grain elevators, warehouses, and processing facilities. The solution is designed to be scalable and can be deployed in other international markets in the future.",FALSE, - ,Bootstrapped,Our company has not yet scaled beyond Ukraine,Understanding the needs of global markets and how interesting our offer can be?
+3,Y-Harvest,LLC,https://yharvest.io,45750143,3/25/2025,3,30/70,Start-up,"Smart farming / IoT solutions, Precision agriculture, Agri data analytics / AI solutions, Climate-smart / sustainable agriculture solutions","Y-Harvest is an AI-driven soil intelligence platform that combines proprietary IoT GeoStation sensors with cloud-based analytics to deliver real-time agronomic insights and recommendations.
+
+Problem addressed
+
+Agronomic decisions are currently based on:
+
+episodic soil laboratory tests (with 4–7 days latency)
+
+low-density data collection (1–2 measurements per season)
+
+This results in:
+
+high uncertainty in fertilizer application
+
+yield losses due to reactive decision-making
+
+3–4 year experimental cycles for new crops or hybrids
+
+There is no continuous data layer to model cause-effect relationships between soil conditions, weather, and yield.
+
+Technology used
+
+IoT hardware layer
+
+GeoStation (ESP32-based sensor nodes)
+
+Measures: soil moisture, multi-depth soil temperature, EC, microclimate, light
+
+Edge communication via gateway (Wi-Fi Long Range / GSM)
+
+Cloud & data pipeline
+
+AWS IoT Core for ingestion
+
+Time-series storage and spatial mapping
+
+FastAPI-based backend
+
+AI / analytics layer
+
+Proprietary agronomic indices (soil dynamics, gradients, stress indicators)
+
+Machine learning models for field condition prediction
+
+LLM-based reporting using multi-factor analysis (~60+ variables)
+
+Integration of external datasets:
+
+yield maps
+
+soil lab analysis
+
+crop rotation history
+
+Key differentiators
+
+High-frequency data collection
+
+Data captured every 6 hours vs. industry standard of once per season
+
+End-to-end system architecture
+
+Integrated hardware + data + AI (not a standalone tool)
+
+Comparative field analytics
+
+Enables A/B testing across field zones
+
+Built-in R&D capability for agribusinesses
+
+Data integrity approach
+
+Separation of measured vs. derived parameters
+
+Avoids false precision common in agri-AI solutions
+
+Scalable data architecture
+
+Designed for future data monetization (data-as-a-service)
+
+Advantages
+
+Reduced fertilizer costs through optimized timing and application rates
+
+Shortened experimentation cycles (from years to a single season)
+
+Real-time decision-making instead of delayed insights
+
+Plug-and-play deployment with minimal operational overhead
+
+Cost-efficient subscription model (~$10 per station per month), enabling scalable adoption",Early revenue,"Farmers, agronomists, agritech scientists , big data related agritech companies ( Bayer etc) , agro-holdings","Ukraine, starting pilots in Argentina",TRUE,"Tech Village 2025 (Moldova)
+Science and Buisness acceleration programm 
+EIT Food  2025 
+Ukraine agro summit 2025
+EIT founders2founders 2025
+Agrifood challange camp 2025",Bootstrapped,"partnerships, financing, localization","Paid pilots , investments, univercities collaboration, partnership in US and LATAM"
+4,ARTAXE,LLC,http://artaxe-studio.com/,44601774,1/5/2022,8,40% Women,Product-Service,"Smart farming / IoT solutions, Precision agriculture, Agri data analytics / AI solutions, Embedded & IoT systems","PivotHawk in an IoT Monitoring Device for Center Pivot Irrigation Systems
+
+Problem addressed:
+Farmers lose up to 30% of crops and spend $500–$1,500/season on manual field inspections due to lack of affordable real-time monitoring for pivot irrigation systems. Undetected malfunctions cause 5–10% water overconsumption and 300+ wasted labor hours per season.
+
+Technology used:
+A Plug&Play IoT device (replaces standard light socket in <2 min) with 4G/LTE-M connectivity, GPS/compass positioning, IP67 protection, and OTA firmware updates. Paired with a cloud-based web platform providing real-time RUN/STOP status, fault alerts, and field location tracking.
+
+Key differentiators:
+- Does not void irrigation system warranty or leasing agreements
+- Universal compatibility with all pivot brands (Lindsay, Reinke, Valley, etc.)
+- Installation under 2 minutes — no technician required
+- Priced at $495 + $150/year SaaS — 6–14x cheaper than competitors ($3,000–$7,000)
+
+Advantages:
+- Only affordable solution (<$500) in a market with no dominant player at this price point
+- Saves farmers up to $5,000/year per system in labor, fuel, and prevented crop losses
+- Scalable ecosystem roadmap: soil moisture, NDVI cameras, AI-powered field analytics
+- Validated in Canada (pilot) and Ukraine; 50+ farms on waitlist across 5 countries
+-There are plans to develop an ecosystem comprising several devices",MVP,"Small-to-large scale farmers and agricultural enterprises operating center pivot irrigation systems, primarily in North America (USA, Canada), Ukraine, and the EU.","Canada, Ukraine",TRUE,SEEDS OF BRAVERY,Grant-funded,"1. Certification & Regulatory compliance
+Device must be certified separately for each market - FCC (USA), IC (Canada), CE (EU), and Ukraine. PCT patent filing required across key markets. 
+
+2. Financing
+Currently pre-revenue. Hardware production requires upfront capital for component procurement and small-batch manufacturing. Scaling from 10 MVP units to at least 100+/month demands working capital before revenue covers costs.
+ 4. Distribution & partnerships
+Pivot irrigation is a relationship-driven industry. Reaching farmers efficiently requires local agricultural dealers, distributors, and equipment resellers.
+
+5. Localization
+Platform and alerts must support local languages, units (metric/imperial), and local agronomic practices. Customer support requires local-language capability. 
+
+6. Market education
+Adoption of new solutions requires demonstration programs, pilot partnerships, and trust-building with early adopters.
+
+7. Geopolitical risk
+Core R&D team is based in Ukraine (wartime conditions), which creates operational risk and complicates international investor conversations despite the team successfully operating through it.","By completing the program, PivotHawk expects to:
+- qualified investors introductions that move us closer to closing our $500K Seed Round
+- signed US distribution or dealer agreement — or at minimum an active LOI with a partner
+- 2–3 new pilots in North America
+- Clarity on FCC certification path, timeline and cost for US market entry 
+- Validated US pricing and GTM strategy based on direct customer discovery with American farmers"
+5,FEODAL,LLC,https://feodal.online/,43092063,7/4/2019,37,Female: 75%  Male: 25%,Product,"Smart farming / IoT solutions, Precision agriculture, Farm management software, Supply chain & traceability solutions, Agri data analytics / AI solutions, Land management","Core Product(s) / Service(s)
+Feodal is a comprehensive digital ecosystem of products that brings together over 190,000 users, 3,000 farmers, and 600 communities into a unified environment for asset and operations management. Our product stack includes:
+Feodal FMS (Farm Management System):
+ A fully vertically integrated farm management system. It combines data from IoT devices, satellite analytics, and tools for long-term business model planning. This enables not only equipment monitoring but also modeling seasonal economics and optimizing costs.
+Feodal Land & Hromada:
+ Audit platforms for farmers and territorial communities. We consolidate data from state registries, enabling communities to detect illegal land use and significantly increase local revenues, while helping farmers compete more effectively.
+MOYE (moye.com.ua):
+ A mobile application for landowners that simplifies property management. It serves as both a transaction tool (buying and selling) and a control tool (access to state registry data). It enables direct peer-to-peer communication between owners, tenants, and the market, and provides nationwide tenant reputation tracking.
+Feodal Demining:
+ Specialized solutions and unique expertise for mine action operators, digitizing processes related to contaminated territories.
+Landmarket.in.ua:
+ A specialized analytical platform for transparent land market monitoring. It collects and visualizes data on every official land sale transaction in Ukraine. This allows investors, agribusinesses, and legal professionals to assess real market land values in any region, track price dynamics, and make informed decisions based on objective data rather than assumptions.
+
+Problem Addressed
+We address critical gaps in the agricultural sector:
+Economic losses: Due to lack of data transparency, territorial communities and tenants lose potential income.
+Fair competition: We create conditions for transparent competition among tenants and system users.
+Operational fragmentation: The absence of a unified data window for registries, satellite data, and telematics hinders high-quality long-term planning.
+Communication gap: The lack of direct and trusted interaction between market participants (owners, businesses, communities) creates risks and inefficiencies.
+And many more.
+
+Technology Used
+We build our own ecosystem of cloud services based on advanced development practices and a cloud-native approach. For example, by using Kubernetes as the foundation of our infrastructure, we ensure seamless scaling for thousands of users and reliable processing of large-scale data.
+AI R&D & Strategic Partnership:
+ Our in-house AI R&D center systematically integrates AI into our products and business processes. In collaboration with KMBS (AI Workshop), we train executives to adopt AI-driven decision-making practices.
+IoT & Data Fusion:
+ Integration of machinery sensors, satellite imagery, and state registries in real time.
+
+Key Differentiators & Advantages
+Ecosystem Resilience:
+ We are building a growing network of participants (farmers, communities, mine action operators, landowners), creating a strong network effect.
+Decision Intelligence:
+ We transform raw data into actionable scenarios that enhance business value and capitalization.
+Vision of the Future:
+ We believe the future of global agriculture lies in maximum transparency and dense communication within the ecosystem. Our mission is to create an environment where every connection is digital, secure, and mutually beneficial.",Scaling,"Agricultural enterprises and farmers (tenants)
+
+Territorial communities (Hromada)
+
+Private landowners
+
+Demining operators
+
+Agricultural land investors","Ukraine, Moldova",TRUE,Taiwan Smart Week,- Self-sustained and growing. Open for strategic partnerships to accelerate ecosystem expansion.,"- partnerships, financing","International Expansion: Validation of the GTM strategy and signing the first 1–3 contracts with territorial communities and agri-holdings.
+
+Ecosystem Knowledge Exchange: Networking with experts who have built complex multi-product ecosystems to optimize synergy and interaction between our products (FMS, MOYE, Land.Hromada).
+
+Deep Technological Expertise: Securing mentorship support for deeper integration of AI solutions (predictive analytics in FMS) and transitioning to a scalable microservices architecture.
+
+Strategic Partnerships: Engaging with international players (machinery manufacturers, banks, insurance companies) to develop a cross-border agri-ecosystem.
+
+Investment Readiness: Adapting the business model to meet the requirements and standards of Western venture capital funds."
+6,Howcow,LLC,https://howcow.tech,45449923,8/6/2024,12,20%,Product-Service,"Agri data analytics / AI solutions, Farm management software, Smart farming / IoT solutions","Problem addressed:
+US dairy farms lose $180,000+/year per 500 cows from health issues detected too late. By Day 7, when a farmer finally notices something is wrong, treatment costs 5× more and losses are already locked in. Mastitis: $444/case. Missed heat cycle: $300/event. Heat stress in California: $120/cow/month. The tools exist to react — not to predict. That's the gap Howcow fills.
+Technology used:
+IoT collar sensors paired with our proprietary LAD algorithm — validated by the National Academy of Sciences of Ukraine and tested on industrial-scale farms. The system tracks each cow's individual behavioral baseline 24/7 and detects anomalies 8–48 hours before any visible symptom. The farmer gets a phone alert: which cow, what's wrong, what to do. No manual checks. No guesswork.
+Key differentiators:
+94% accuracy on real farm data. Patent-pending algorithm. Benchmarked against 8 global competitors — the only Howcow combining a 8-48h predictive window, behavioral micro-patterns, NAS-validated science, and disease-specific detection (mastitis, lameness, fertility) in one platform. Not a better tracker — a different generation of technology.
+Advantages:
+$180k/year recoverable per farm. Zero-risk trial model — no upfront commitment, results visible within weeks. Scientifically defensible IP that holds up with institutional partners and investors alike.
+Critically — Howcow is already establishing itself in the US market. We recently presented at DairyCon, are actively preparing our first California pilot, and have initiated partnerships with two US universities. We're on the ground — studying the market, building distributor relationships, and understanding what American dairy farmers actually need. This isn't a company planning to enter the US. We're already here.",MVP,"Our primary target is mid-to-large dairy farm operators managing 300–2,000+ cows across the US, where every percentage point of herd health directly impacts revenue. High labor costs, thin margins, and the scale of American dairy operations make early detection not a luxury but a financial necessity.
+Secondary targets include farm management companies, veterinary service providers, and agricultural cooperatives that serve multiple farms and benefit from platform-level data across herds.
+We also see strong interest from research institutes and universities — our proprietary LAD anomaly detection algorithm has applications well beyond livestock. Institutions working in crop science, defense technology, and behavioral pattern analysis can leverage the same mathematical core for anomaly detection in entirely different domains — from monitoring biological systems to detecting irregularities in complex field environments. We are already in active contact with two US universities exploring this direction.
+Longer term, Howcow is built for any operation — agricultural, scientific, or defense-adjacent — where detecting deviation from a normal pattern early translates directly into better outcomes and lower costs","Ukraine, USA, Kenya",TRUE,"Ninja Acceleration Program, Seeds of Bravery, CES 2025, SelectUSA Investment Summit, DairyCon 2025, CEATEC Japan, CfE Accelerator, Booster Deep Tech Accelerator, EBRD Star Venture",Grant-funded,"Scaling a deep-tech hardware+software platform from Ukraine into the US market comes with real challenges — and we're navigating them directly.
+Partnerships & market entry: The US dairy industry runs on trust and long-standing relationships. Breaking in requires local credibility — distributors, advisors, and university partners who vouch for you. We've been building this network on the ground, including presence at DairyCon and SelectUSA, and active conversations with two US universities.
+Certification & hardware compliance: IoT devices require FCC certification for the US market. We're factoring this into our pilot preparation timeline and working with partners who have experience navigating US hardware compliance.
+Financing: As a Ukrainian company operating in wartime, accessing Western financing requires extra groundwork — establishing US legal presence, building investor trust across jurisdictions, and demonstrating traction in-market before institutional capital moves. We're actively working through this.
+Localization & mentality: American farmers evaluate technology differently than European ones — ROI has to be immediate and obvious, the onboarding has to be frictionless, and trust is built through peer referrals, not specs. We're adapting our go-to-market and communication accordingly.
+The context: We're a wartime startup. That adds complexity — but it also sharpens execution. Every challenge we've faced building this in Ukraine has made the team exceptionally resourceful and resilient.","Participating in this program is not just about ticking boxes — it's about making an irreversible step into the US market with the right foundation.
+Pilot launch & first US contracts. We are already preparing our first farm pilot in the US. The program accelerates this from preparation to execution — with the credibility of UC Berkeley behind us, doors open differently. We expect to leave with at least one signed pilot agreement and the beginning of a real commercial footprint.
+Distribution & channel partnerships. The American dairy industry is built on relationships, not cold emails. Being embedded in the Silicon Valley ecosystem for two weeks — meeting operators, investors, and industry insiders — gives us the kind of warm network that would otherwise take years to build. We expect at least one formalized US distribution or channel partnership to come directly from program connections.
+Investor relationships for our Seed round. We are targeting a $1M Seed round. The structured pitch sessions and investor access within the program are precisely the environment where meaningful capital conversations begin. Our goal is to leave with active investor relationships — not just business cards.
+Mentality shift & market understanding. This may be the most underrated outcome. American farmers think differently. They evaluate technology through ROI speed, peer trust, and frictionless adoption — not feature lists. Six months of mentorship from people who live inside this ecosystem will reshape how we communicate, position, and sell. That mindset recalibration has compounding value far beyond the program itself.
+Sustainability & long-term scalability. The post-program mentorship structure — six months, two sessions per month — is exactly what a company at our stage needs: not a one-time event, but a sustained feedback loop as we execute our first pilots, refine our business model, and prepare for scale. We intend to be one of the program's long-term success stories, presented at WINWIN Summit 2026 with measurable results in hand.
+Broader impact. Howcow is a Ukrainian deep-tech company, built during wartime, solving a real global problem. Every successful step we take in the US market is proof that Ukrainian innovation is world-class — not despite the circumstances, but because of the resilience they forged. This program is an opportunity to carry that message into Silicon Valley and make it permanent."
+7,INNONEERS,LIMITED LIABILITY COMPANY INNONEERS (LLC INNONEERS),https://innoneers.com,45252838,11/30/2023,15,"As a growing organization, we have a mixed gender representation in management and continuously aim to improve balance through inclusive hiring and development practices.",Product-Service,"Smart farming / IoT solutions, Farm management software, Agri data analytics / AI solutions","Agro Intelligence Platform
+1. Briefly about the product
+We create a platform for agribusiness that combines data from various databases and documents and other systems and provides simple answers to key business questions.
+The platform allows you to:
+- see real profit
+- analyze yield
+- receive answers through AI
+- build forecasts for prices and revenues
+
+These are not just dashboards. This is an intellectual layer above the business.
+
+2. Problem
+In most agricultural companies, data is scattered: - Excel, BAS or other - agro systems - separate reports
+Because of this:
+- there is no single truth
+- the numbers do not match
+- analytics are done manually
+- it takes days to get answers
+- decisions are made on intuition
+
+The biggest problem is the lack of a single data model.
+
+3. Why existing solutions do not solve the problem
+Farm systems:
+- conduct operations well
+- calculate business poorly
+Satellite solutions:
+- show the state of the field
+- do not give a financial picture
+Power BI:
+- depends on Excel
+- does not have domain logic
+Conclusion: The market lacks a system that combines all data and calculates business.
+
+4. Solution
+The platform is built as a single system:
+Data → processing → single model → analytics → AI → forecast
+The key core is the semantic layer
+It is he who provides the correct numbers and answers
+
+5. Main functions
+Profit
+profit by crop
+profit by field
+margin
+cost structure
+Yield
+yield by fields
+comparison of seasons
+deviations from the plan
+AI answers
+The user simply asks:
+What is the profit on corn
+The system responds with text and shows numbers
+Forecasts
+prices
+yield
+income
+margin
+
+6. Why we will be better
+Single data model
+Combination of finance and agro
+AI works with the correct model
+The system answers questions, not just shows graphs
+
+7. Clients
+The first stage: - agroconsulting - distributors
+The second stage: - medium-sized agricultural companies
+Further: - agricultural holdings - banks - traders
+
+8. Market Entry
+We do not sell directly to all farmers
+We work through partners: - consulting - distributors
+They already have customers
+This accelerates sales
+
+9. Business model
+SME segment: - 500 to 3000 dollars per month
+Enterprise: - 20k to 150k per year
+White label: - license + interest
+
+10. Development plan
+First 4 months: - Excel - 1C - basic model - dashboards - AI responses
+4-9 months: - forecasts - scaling
+9+ months: - AI analytics - market - banks
+
+11. Technologies
+Node.js or Python
+database
+semantic layer
+AI
+web interface
+
+12. Vision
+To become the standard of analytics in agriculture",MVP,"Clients
+The first stage: - agroconsulting - distributors
+The second stage: - medium-sized agricultural companies
+Further: - agricultural holdings - banks - traders",Ukraine and Europe,TRUE,"Re:farm, AGROIT Forum 2026, LogiMAT",Bootstrapped,"AI-powered platform that connects agricultural data and provides insights, answers, and forecasts.
+Problem
+Agricultural data is fragmented, making it difficult to understand profitability and make fast decisions.
+Solution
+A unified data platform with semantic layer and AI that delivers instant insights and forecasts.
+Value
+Faster decisions, clear profitability, and better planning.
+Business Model
+Subscription-based SaaS and enterprise licensing.
+
+
+As we scale internationally, we face several key challenges across multiple dimensions:
+
+1. Regulatory & Compliance
+Different countries have varying regulations related to data privacy, agricultural standards, and AI usage. Ensuring compliance (e.g., GDPR in Europe or local data residency laws) requires legal adaptation and operational flexibility.
+
+2. Data Standardization & Integration
+Agricultural data is highly fragmented and differs by region (formats, sources, quality). Integrating local datasets into a unified semantic layer while maintaining accuracy and consistency is a significant technical challenge.
+
+3. Localization & Market Adaptation
+Each market has unique agricultural practices, crops, climate conditions, and user expectations. The platform must be localized not only linguistically but also in terms of insights, models, and UX relevance.
+
+4. Partnerships & Ecosystem Development
+Scaling requires strong local partnerships (agri-tech providers, cooperatives, government bodies, data providers). Building trust and aligning incentives across stakeholders takes time and effort.
+
+5. Go-to-Market Strategy & Sales Cycles
+Enterprise and agricultural clients often have long decision-making cycles. Establishing credibility in new markets and adapting sales strategies to local dynamics is critical.
+
+6. Financing & Scaling Resources
+International expansion requires significant investment in product adaptation, sales, and operations. Balancing growth with sustainable unit economics is a key challenge, especially for a bootstrapped or early-stage SaaS.
+
+7. AI Model Adaptation & Accuracy
+AI models must be trained and validated on region-specific data (soil, weather, crops), which impacts the accuracy of forecasts and recommendations.","I expect several concrete, measurable outcomes from participating in the program:
+
+1. Strategic Partnerships
+Establish 2–3 partnerships with agri-enterprises, data providers, or technology partners in the U.S. and EU markets to accelerate data integration and market entry.
+
+2. Pilot Launches & Market Validation
+Launch 1–2 pilot projects with international clients (e.g., farms, agri-holdings, or agri-tech companies) to validate product-market fit in new regions and collect real-world performance data.
+
+3. Investment Readiness & Fundraising
+Refine our investment strategy, pitch, and financial model with the goal of raising a pre-seed/seed round from international investors following the program.
+
+4. Product & AI Model Enhancement
+Adapt our AI models and data architecture to better support region-specific agricultural conditions (crops, climate, regulations), improving forecast accuracy and decision support capabilities.
+
+5. Go-to-Market & Scaling Strategy
+Develop a clear and actionable international go-to-market strategy, including ICP definition, pricing model validation, and scalable sales channels.
+
+6. Brand Positioning & Global Visibility
+Strengthen our positioning as a data-driven AgriTech platform and increase visibility within the global innovation ecosystem, particularly in the U.S.
+
+7. Export Growth
+Initiate first international revenue streams through signed contracts or LOIs with clients outside Ukraine."
+8,AGRO CHERNIAK,LLC,https://agronix.ua/,45328702,11/7/2023,7,50/50,Service,Agri-drones & robotics,"The main service is the company's application of plant protection products and fertilizers to various agricultural crops using agrotrons. The use of technology solves the following tasks: 
+- Application of pesticides to tall crops (corn, sunflower), avoiding trampling and crop loss (3-20%);
+- saving water (about 90%) according to classical technology;
+- increasing yield (accurately, on time);
+- the ability to apply products in wet soil, when the rest of the equipment is ineffective
+- saving on equipment (60-90% on services)
+- consideration of the problem of lack of qualified personnel (agrodrones are quite easy to use) 
+We also sell agrodrones, provide service services for their repair, and also teach how to use them, which ensures the development and popularization of technologies. 
+Another direction of the company is the selection of soil samples for analysis and selection of fertilizers. This service ensures efficient use of resources, increased yields, environmentally friendly use of resources, and minimizing the use of chemical fertilizers.",Scaling,"farmers, agricultural holdings","Ukraine (more than 5 years of experience), opening the Greek and Romanian markets this year",TRUE,AgriPlanta - RomAgroTec (exhibition),Revenue-funded,"the key challenges our company faces when scaling internationally are regulatory, certification and financing.","From participating in the Program we expect partnerships signed, pilot launches, investment raised."
+9,Valvix,Sole proprietorship,https://valvix.ai,3237107216,5/7/2008,2,Male: 100% / Female: 0%,Product-Service,"Smart farming / IoT solutions, Precision agriculture, Farm management software, Agri data analytics / AI solutions, Climate-smart / sustainable agriculture solutions","Valvix is an IoT-based greenhouse and farm automation system that enables agricultural businesses to monitor and control all critical operations in real time — from climate and irrigation to boiler management, warehouses, and workforce coordination.
+Problem addressed:
+Most greenhouse and farm operations in Ukraine and emerging markets rely on manual control — adjusting heating, ventilation, and irrigation based on intuition, and discovering problems only after crop damage has occurred. Combined with Ukraine’s unstable power grid and frequent blackouts, farmers face energy waste (up to 30-40% overspending on heating), crop losses from undetected climate failures, and inability to operate during power outages.
+Technology used:
+Valvix combines custom IoT hardware nodes built on ESP32 microcontrollers with a cloud-based monitoring and control platform. Sensors continuously track air and soil temperature, humidity, soil moisture, weather conditions, and plant health indicators. Our intelligent control algorithms automatically manage heating systems (boilers, floor heating, radiators, fan heaters), ventilation (motorized windows), irrigation, lighting, and energy consumption. When connected to the internet, AI-powered cloud services optimize climate, irrigation, and resource management. The system also operates fully offline via a local edge server, and even a single standalone node can execute basic automation rules independently — ensuring zero downtime under any conditions.
+Key differentiators:
+        ∙        Easy integration and fast deployment: the system is designed to plug into existing farm infrastructure with minimal setup time
+        ∙        Predictive alerts: real-time notifications for critical issues — overheating, heating failures (pipe bursts, insufficient capacity), and early detection of plant disease risks before visible symptoms appear
+        ∙        Three-tier resilience: full cloud AI when online → local server when internet is lost → autonomous node operation when everything else is down
+        ∙        Smart energy management: integrates with solar panels and wind turbines, automatically activating energy-intensive equipment (motors, heaters) when generation is high and reducing load when it drops
+        ∙        Battle-tested during Ukrainian blackouts: successfully managed hydroponic vertical farms running on batteries and solar, covering 95% of energy needs without generators — activating backup generators only as a last resort
+        ∙        Affordable and scalable: designed for small and mid-size farms, not just large agro-holdings — start with monitoring, scale to full automation
+Advantages:
+        ∙        Energy savings of 20-35% through intelligent heating, ventilation, and energy load management
+        ∙        Complete farm management: climate, irrigation, soil analysis, weather monitoring, boiler control, warehouse and personnel management
+        ∙        Real-time dashboards accessible via web, tablet (kiosk mode), and mobile
+        ∙        Built and tested on our own 4.5 ha greenhouse farm — we are both the developer and the end user
+        ∙        Proven in real production conditions with 100+ clients across Ukraine",Scaling,"Our primary target customers are small and mid-size greenhouse farms (from 100 m² to 5 ha) growing vegetables, herbs, and seedlings — operations that need professional-grade yet easy-to-deploy automation.
+Secondary segments include:
+        ∙        Indoor and vertical hydroponic farms
+        ∙        Nurseries and seedling producers
+        ∙        Agricultural enterprises managing multiple greenhouses and boiler systems
+        ∙        Farm operators looking to integrate renewable energy (solar, wind) into their production cycle
+Geography: Ukraine (current market), with expansion plans to the United States, Middle East (UAE), and Eastern Europe.",Ukraine,TRUE,"Yes. We have participated in the following events:
+        ∙        “Intensive Vegetable Growing: Earn from Greenhouse” forum (Lviv, June 2024) — demonstrated Valvix system in action at our own greenhouse farm. Organized by “Sadivnytstvo po-ukrainsky” magazine and AgroTimes.
+        ∙        Field Day at Melnyk Agro farm (Chornokozyntsi, November 2024) — hosted approximately 150 farmers to showcase our greenhouse operations and Valvix automation system. Organized in partnership with T&I Media Group (techhorticulture.com).
+        ∙        “Intensive Greenhouse: Vegetable & Berry Growing” forum (Lviv, June 2025) — participated as a speaker and presented the Valvix greenhouse management system.
+        ∙        HortiTech Ukraine 2026: Horticulture. Vegetables. Berries international conference (Ternopil, February 2026) — exhibited Valvix hardware and platform as a technology solution for controlled environment agriculture (CEA).",Bootstrapped,"Regulatory & Certification: Understanding and complying with local agricultural regulations, data privacy laws, and electrical safety standards in target markets (US, EU, UAE). Each country may have different requirements for commercial IoT devices used in agricultural settings.
+Financing: As a bootstrapped company, we lack the capital reserves needed for rapid international expansion — establishing local presence, attending trade shows, building demo installations, and supporting early customers in new markets requires significant upfront investment.
+Partnerships: Finding reliable local partners — distributors, integrators, and agronomists — who understand both greenhouse operations and IoT technology in each target market. Without local partners, customer support and installation across time zones becomes a challenge.
+Localization: Adapting the platform (UI, alerts, documentation) to local languages and agricultural practices. Greenhouse growing methods, crop calendars, heating/cooling priorities, and even sensor placement differ significantly between Ukrainian, American, and Middle Eastern markets.
+Market awareness: Valvix is well-known in Ukraine’s greenhouse community, but has zero brand recognition internationally. Building trust with foreign farmers who are unfamiliar with Ukrainian AgriTech requires a different go-to-market approach.","Market validation in the US: Conduct structured customer discovery with American greenhouse operators to validate product-market fit, understand their specific pain points, and adapt Valvix features to the US market requirements.
+Pilot launches: Establish 2-3 pilot installations at US-based greenhouse farms to demonstrate Valvix capabilities in real production conditions and collect feedback for market-specific improvements.
+Strategic partnerships: Sign distribution or integration agreements with US-based agricultural technology distributors, greenhouse equipment suppliers, or farm management companies who can serve as local sales and support channels.
+Investor connections: Build relationships with Silicon Valley and US-based investors focused on AgriTech and IoT to secure seed or pre-Series A funding ($200K-$500K) for international expansion.
+Export strategy: Develop a clear go-to-market roadmap for the US, including pricing model, support infrastructure, and regulatory compliance plan — ready for execution within 6 months after the program.
+Knowledge and mentorship: Gain practical insights into the US agricultural market landscape, business culture, and scaling strategies from experienced mentors and Berkeley faculty, which we can also apply to other international markets (UAE, EU).
+Brand credibility: Leverage the UC Berkeley and AGRO Ukraine program affiliation to increase Valvix visibility and credibility in international markets — having a Silicon Valley stamp of approval is a significant trust factor for potential customers and investors."
+10,PROFEED TECHNOLOGY,LLC,https://profeed.systems/mix/,43405685,12/12/2019,15,70% male and 30% female,Product-Service,"Farm management software, Agri data analytics / AI solutions, Smart farming / IoT solutions, Precision agriculture, FoodTech (processing, safety, quality control)","PROFEED is a digital feed management platform for dairy farms that automates feeding processes, ensures accuracy, and provides real-time operational insights.
+
+Problem addressed:
+Dairy farms lose significant money due to inaccurate feed loading, human errors, and lack of control over daily operations. Feeding is the largest cost (up to 70%), yet it is often poorly monitored and managed.
+
+Technology used:
+PROFEED combines proprietary IoT hardware (weighing terminals installed on feed mixers), mobile applications for operators, and a cloud-based management platform with analytics. The system works both online and offline, ensuring стабильність even in low-connectivity environments.
+
+Key differentiators:
+
+Full control of the actual feeding process, not just planning
+Offline-first functionality (critical for farms)
+Integrated hardware + software solution
+Strong traction: 750+ farms, ~47% market share in Ukraine
+Proven results in real farm conditions
+
+Advantages:
+
+Up to 11% increase in farm profitability
+5–10% reduction in feed losses
+Elimination of human errors in feeding
+Real-time visibility for farm managers
+Easy adoption with minimal disruption to daily operations
+
+PROFEED focuses not just on collecting data, but on improving real farm management and delivering measurable economic results",Scaling,Dairy farms,"Ukraine, Europe and the USA",TRUE,"SelectUSA Investment Summit
+UK-Ukraine Tech Bridge Investment Accelerator
+F-300 Startup Acceleration Program
+CES 2025
+Seeds of Bravery Incubator
+Google for Startups Ukraine Support Fund",Bootstrapped,"partnerships, financing","partnerships signed, pilot launches, investment raised, export contracts"
+11,SAFIS.AI,Innovative AgriTech startup affiliated with Dnipro University of Technology (for-profit SME),https://www.linkedin.com/company/safis-ai,not registred ,30.06.2025,5,Female: 67%. Male: 33%,Start-up,"Smart farming / IoT solutions, Precision agriculture, Farm management software, Agri data analytics / AI solutions, Climate-smart / sustainable agriculture solutions","""Problem addressed:
+Large agroholdings managing over 1,000 hectares rely on manual soil sampling typically performed once per month, which does not provide sufficient temporal resolution for decision-making. There is no scalable solution for deploying dense soil sensor networks across large fields. As a result, irrigation is often unregulated, leading to up to 40% water waste, while non-optimal hydrothermal conditions can cause up to 20% yield loss.
+
+Technology used: 
+IoT-based soil sensor networks (LoRaWAN) for real-time field data. Satellite imagery (e.g., Sentinel-2) for vegetation monitoring.  Weather data integration.  Machine learning models.
+
+Key differentiators: 
+Early prediction of crop stress 3–7 days in advance.  Combined use of IoT + satellite + weather data in a single platform.  Focus on real-time, field-level monitoring, not only historical analytics.  Scalable architecture suitable for large agricultural enterprises
+
+Advantages: 
+Hourly automated soil-moisture and temperature data. Scalable wireless IoT sensors network. Preventive stress alerts 3-7 days before visible damage. Increase yield by up to 20%, reduce water consumption by up to 40% and Increase profits by up to €150/ha·year.""",MVP,"Large grain and oilseed producers, irrigated fields, and greenhouses",Ukraine ,TRUE,YEP Incubator,Bootstrapped,"SAFIS.AI faces key international scaling challenges, including regulatory compliance, local partnerships for deployment, model localization, financing, and building farmer trust through pilots.","Through participation in the Program, SAFIS.AI aims to establish strategic partnerships, launch international pilot projects, refine its go-to-market strategy, secure initial commercial agreements, engage potential investors, and strengthen product-market fit to enable scalable global expansion."
+12,Agrico Ukraine,Limited Liability Company,https://www.agrico.com.ua,34881485,29.01.2007,18,50%,Product,"Smart farming / IoT solutions, Climate-smart / sustainable agriculture solutions, FoodTech (processing, safety, quality control)","We have a demonstration farm in two locations where we use innovative solutions (meteo and field data, NDVI. Etc) advise our clients on better decisions in the field on fertilising, irrigating and crop protection",Early revenue,"Agro Retail Enterprise companies with more than 100 vendors to operate with (customers, distributors, suppliers, partners, etc)","EMEA, LatAm",TRUE,"YEP! Accelerator, Glovo startup lab 3.0",Revenue-funded,partnerhips and financing for entering new markets,raising export contracts and set network of partners and attraction of potential investors for our pre-seed and later funding stages
+13,b2beings,LLC,https://b2beings.com,45819173,31.05.2025,9,56%,Product,Supply chain & traceability solutions,"""Portality — supply chain automation platform for Agro Retail companies.
+
+Agribusiness struggles the most — two thirds of relail companies  
+Lose up to 5% in total earnings and 10% in product waste due to slow manual sales, supply & distribution process. 
+
+Portality solves this by automating all supply chain stages and creating B2B self-service portal tailored and fast in delivery no matter the business complexity
+
+It’s an all-in-one solution to build any tool from Marketplace to Loyalty programs for farmers 
+
+It’s builder which has four layers of configuration
+- Layouts 
+- Business process 
+- Integrations with external software
+- and AI-copilot components""",Concept,medium and large agriculture farming companies,"USA, Canada, UK, Germany, Saudia Arabia",TRUE,"GEO Business, Intergeo, Lamma Show",Bootstrapped,"financing, localization","pilot launches, investment raised, export contracts"
+14,Gis-point.ltd,LTD,https://gis-point.com,36610302,13.08.2009,50,60/40,Product-Service,"Smart farming / IoT solutions, Climate-smart / sustainable agriculture solutions","""GISPoint is a cloud-based GeoAI platform designed for large-scale agricultural operations and agribusiness ecosystems.
+
+We solve the problem of fragmented data, complex land management, and slow decision-making across thousands of hectares by combining geospatial data, satellite imagery, and operational systems into a single intelligent platform.
+
+Our technology integrates GIS, AI/ML, and cloud infrastructure to automate key processes such as:
+
+management zone generation,
+vegetation and yield analysis (NDVI/SBI),
+integration of agronomic, operational, and satellite data,
+spatial dashboards for real-time decision-making.
+
+Unlike generic GIS tools, GISPoint is built specifically for agriculture — enabling companies like MHP to:
+
+centralise all land, crop, and operational data in one system,
+automate agronomic analytics and reduce manual processes,
+improve accuracy of planning and resource allocation,
+gain full visibility across the entire land bank.
+
+The platform supports use cases such as precision farming, agrochemical planning, satellite monitoring, and integration with ERP and data platforms like AgroDataHub.
+
+Result: faster, data-driven decisions, reduced operational complexity, and scalable digital infrastructure for modern agribusiness.""",Scaling,"The target customers are professionals and organizations responsible for designing, operating, or optimizing buildings and controlled environments where efficiency, comfort, and reliability are critical. This includes system integrators, electrical contractors, and developers who implement smart automation in residential and commercial projects, as well as hotel owners and operators seeking to improve guest experience while reducing operational costs through energy-efficient automation.
+
+In addition, the solution is highly relevant for industrial users and agricultural businesses - particularly greenhouse operators - who require precise environmental control, automation of routine processes, and centralized management of multiple systems. End users such as homeowners also benefit as a secondary audience, gaining intuitive control over lighting, climate, security, and energy usage, but the primary focus remains on B2B partners and businesses that deploy and scale these systems.","Ukraine, EU",TRUE,"CES, Slush, ISE, Web Summit, TechBBQ",Angel investment,Partnerships and financing,"We expect the program to accelerate our entry into international AgriTech markets through validated partnerships, pilot projects, and investor engagement. Concretely, we aim to secure at least 3-5 pilot deployments of our smart greenhouse automation system with commercial farms or greenhouse operators, as well as establish strategic partnerships with local integrators or distributors. In parallel, we plan to refine our market positioning and go-to-market strategy based on customer discovery and mentorship, enabling us to convert these pilots into long-term commercial contracts and export agreements.
+
+The program will also help us adapt our product to U.S. regulatory and market requirements, strengthen our business model, and prepare for scalable growth. Ultimately, we aim to leave the program with validated demand in a new market, signed partnership agreements, and a clear pathway to revenue growth through international sales."
+15,Almexsoft Ukraine,LLC ,https://almexoft.com.ua/,43271555,07.10.2019,35,Male: 80%; Female: 20%,Product,Farm management software,"""Almexoft is a no-code/low-code platform designed to automate business processes and document workflows mainly for mid-size and enterprise companies.
+
+Problem addressed:
+
+Many organizations rely on fragmented systems, manual processes, and email-based approvals, leading to delays, lack of transparency, compliance risks, and operational inefficiencies, especially in document-heavy environments such as procurement, finance, HR, and supply chain.
+
+Technology used:
+
+Almexoft is built on a modular, package-based architecture that enables flexible development and deployment of functional components. The platform leverages a modern enterprise technology stack, including Java for backend logic, JavaScript and React for the user interface, and supports cross-platform mobile development (iOS/Android via Swift and Java).
+
+It operates on a scalable infrastructure compatible with both Windows and Linux environments and supports major enterprise-grade databases such as Microsoft SQL Server, Oracle, and PostgreSQL. The platform includes its own data management layer (ORM) and provides open API capabilities for seamless integration with external systems.
+
+Additionally, the platform can be deployed both on-premise within a customer’s infrastructure and in cloud environments. Almexoft is cloud-agnostic, allowing deployment across leading cloud providers such as Google Cloud, Microsoft Azure, or other private and public cloud environments..
+
+Key differentiators:
+
+Rapid implementation (ranging from a few weeks to a number of months, as opposed to traditional enterprise systems)
+No-code approach enabling “citizen development” without heavy IT involvement
+Strong focus on document-centric processes and compliance
+Flexible architecture independent from large vendor ecosystems (e.g., Microsoft, SAP)
+
+Advantages:
+
+Up to 80% reduction in implementation costs compared to traditional solutions
+Faster process execution (often 2× improvement in document processing time)
+Full visibility and control over workflows and approvals
+Scalable solution adaptable across multiple departments and industries""",Mature / growth stage,"Almexoft is designed for medium and large enterprises whose operations involve complex processes and large volumes of documentation. This includes organizations that require structured document management workflows, transparency, and regulatory compliance across departments such as operations, finance, procurement, legal, and human resources.","Ukraine, Kazakhstan, Poland",TRUE,"Seeds of Bravery (UASEEDs)
+TechStep Sweden
+Startup Booster by Huge Thing",Revenue-funded,"The primary challenge we face is building trust with both customers and local partners (entering new markets requires establishing credibility with enterprise clients and developing strong relationships with system integrators and consulting partners who can resell and implement our solution) and compliance requirements (it vary across regions and includes data protection, document management standards, and integration with local e-signature and legal frameworks).","We are seeking assistance in identifying regulatory requirements for our technology, conducting market research, and identifying potential customers. In addition, we aim to establish connections with potential partners and sign our first partnership agreement."
+16,Sirrocco Energy ,LTD ,https://www.siroccoenergy.com,41740498,16.11.2017,10,"62,5% women led",Product,Sustainable and distributed clean energy for agriculture,"- Businesses, especially in agriculture and suburban and periurban areas, face rising electricity costs, unstable grid supply, and limited access to clean energy. Solar alone cannot provide 24/7 power — leaving a gap during nighttime, cloudy seasons, and winter months when agricultural operations (cold storage, irrigation, climate-controlled greenhouses) still demand continuous energy.
+
+- Sirocco Energy develops a patented linear-motion wind turbine designed specifically for distributed energy generation in suburban and peri-urban environments (with average wind speed of 5+ m/s).
+
+- designed for the suburban wind speed (average of 5+ m/s);
+linear blade movement with shorter blades, that are mounted at two points;
+smaller installation footprint (3x times less space comparing to traditional wind turbine, up to 10x times less for several turbines installed);
+low noise and vibration;
+optimized for easy logistics (30kW version of turbine fits into standard container);
+safe for birds.
+
+LCOE - $0,03 to $0,08 cents/kW
+Cuts electricity costs by 2–5× with a 2–7 year payback period
+Modular and scalable
+Reduces dependence on grid and diesel generators, works complementary with solar, improving overall system stability and year-round generation",MVP,"Agri companies, manufacturing facilities in suburban and periurban areas","UA, and plan to extend to US, EU",TRUE,"Inscience Conference 2025
+GCIP Ukraine 2.0
+Rebuild Ukraine 2025 (Warsaw)
+CES 2026
+YEP: Beyond the Thesis
+ChangeNOW
+Cleantech Days 2026",Angel investment,Financing and regulatory,"3 new partnerships
+2 pilot projects commitments
+$500k raised"
