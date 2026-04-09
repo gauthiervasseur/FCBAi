@@ -561,7 +561,7 @@ ol li::before {
 :root{
   --bullet_char: "■";
   --bullet_char_nested: "–";
-  --list_font_size: 30px;
+  --list_font_size: 24px;
   --list_line_height: 1.4;
   --list_indent: 30px;
   --bullet_gap: 0.5em;
@@ -585,7 +585,7 @@ ul{
 ul > li{
   position: relative;
   padding-left: calc(var(--bullet_size, 1em) + var(--bullet_gap, 0.7em));
-  margin: 0.25em 0;                 /* tweak vertical spacing */
+  margin: 0.1em 0;                 /* tweak vertical spacing */
   hyphens: none;
 }
 
@@ -711,7 +711,7 @@ img {
 
 
 section.title h1 {
-    color: var(--text);
+    color: var(--white);
     font-size: 65px; /* Adjust the font size */
     font-weight: bold; /* Options: normal, bold, bolder, lighter, or numbers 100-900 */
     font-style: normal; /* Options: normal, italic, oblique */
@@ -733,7 +733,7 @@ section.title h1 {
 
 
 section.title h2 {
-    color: var(--h2col);
+    color: var(--cal-gold);
     font-size: 55px; /* Adjust the font size */
     font-weight: bold; /* Options: normal, bold, bolder, lighter, or numbers 100-900 */
     font-style: italic; /* Options: normal, italic, oblique */
@@ -820,11 +820,17 @@ section.inverted b {
   color: var(--h6col); /* ou une autre couleur d’accent */
 }
 
+/* Strong / bold */
+section.inverted ul strong,
+section.inverted ul b {
+  color: var(#FDB515); /* ou une autre couleur d’accent */
+}
+
 /* Lists */
 section.inverted ul,
 section.inverted ol,
 section.inverted li {
-  color: var(--lists_inverted);
+  color: var(#FDB515);
 }
 
 /* Tables */
@@ -918,11 +924,17 @@ section.small_inverted b {
   color: var(--h6col); /* ou une autre couleur d’accent */
 }
 
+/* Strong / bold */
+section.small_inverted ul strong,
+section.small_inverted ul b {
+  color: var(--h6col); /* ou une autre couleur d’accent */
+}
+
 /* Lists */
 section.small_inverted ul,
 section.small_inverted ol,
 section.small_inverted li {
-  color: var(--lists_inverted);
+  color: var(--cal-gold);
 }
 
 /* Tables */

@@ -1,0 +1,528 @@
+/**
+ * @theme page_FCBAi
+ * @auto-scaling fittingHeader,math
+ */
+
+
+/* =========================
+   PAGE / LAYOUT
+   ========================= */
+
+section {
+  width: 8.5in;
+  height: 11in;
+  color: black;
+  padding-left: 0.6in;
+  padding-right: 0.6in;
+  padding-top: 0.5in;
+  padding-bottom: 0.5in;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 🔑 FIX */
+}
+
+.logo-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 1rem;
+}
+
+
+.logo-row img{
+  height: 80px;
+}
+
+
+/* Brochure Font */
+p, ul, footer, header, th, td, ol, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* =========================
+   THEME VARIABLES
+   ========================= */
+
+
+:root{
+
+  /* Core colors */
+  --c-black: #000000;
+  --c-muted: #7b7b7b;
+  --c-white: #fff;
+
+  /* Accent */
+  --c-accent: #002676;
+
+  /* Surfaces / callouts */
+  --c-surface-h4: #fdb415c3;
+  --c-surface-h5: #fdb4156c;
+  --c-surface-h6: #fdb41530;
+
+  /* UI meta */
+  --c-pagination: #aaa;
+  --c-footer: #999;
+
+  /* Table lines */
+  --c-table-line: rgba(0,0,0,.25);
+  --c-table-line-header: rgba(0,0,0,.4);
+
+  /* =========================
+     2) SEMANTIC TOKENS
+     ========================= */
+
+  --color_text: var(--c-black);
+  --color_muted: var(--c-muted);
+
+  --color_accent: var(--c-accent);
+  --color_label_strong: var(--c-black);
+
+  --callout_h4_bg: var(--c-surface-h4);
+  --callout_h4_text: var(--c-black);
+
+  --callout_h5_bg: var(--c-surface-h5);
+  --callout_h5_text: var(--c-black);
+
+  --callout_h6_bg: var(--c-surface-h6);
+  --callout_h6_text: var(--c-white);
+
+  --pagination_color: var(--c-pagination);
+  --footer_color: var(--c-footer);
+
+  --table_line: var(--c-table-line);
+  --table_line_header: var(--c-table-line-header);
+  --table_header_bg: var(--Tablebkg);
+  --table_row_even_bg: var(--TablebkgOdd);
+  --table_col_even_bg: var(--TablebkgEven);
+  --th_color: var(--th);
+  --td_color: var(--td);
+
+  --lists: var(--color_text); 
+  --bullet_nbr: var(--color_accent);
+
+  --bullet_char: "-";
+  --bullet_char_nested: "–";
+  --list_font_size: 12pt;
+  --list_line_height: 1.4;
+  --list_indent: 12pt;
+  --bullet_gap: 0.5em;
+  --bullet_size: 1em;
+}
+
+/* bold accent */
+strong, b{
+  color: var(--color_accent);
+}
+.label strong{
+  color: var(--color_label_strong);
+}
+
+/* headings */
+h1{
+  color: var(--color_text) !important;
+  margin: 0 10px 10px;
+  font-size: 20pt;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h2{
+  color: var(--color_muted);
+  margin: 10px 10px 5px;
+  margin-bottom: 10px;
+  font-size: 16pt;
+}
+
+h3{
+  color: var(--color_text);
+  margin: 10px 10px 0px;
+  margin-bottom: 10px;
+  font-size: 14pt;
+}
+
+/* Callout headings */
+h4 {
+  display: inline-block;
+  background: var(--callout_h4_bg);
+  color: var(--callout_h4_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 12pt;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+h4 + ul {
+  display: inline-block;
+  background: var(--callout_h4_bg);
+  color: var(--callout_h4_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+h4::after, h4::before{ content: none !important; }
+
+h5{
+  display: inline-block;
+  background: var(--callout_h5_bg);
+  color: var(--callout_h5_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 12pt;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+h5::after, h5::before{ content: none !important; }
+
+h6{
+  display: inline-block;
+  background: var(--callout_h6_bg);
+  color: var(--callout_h6_text);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0 12px;
+  font-size: 14pt;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h6::after, h6::before{ content: none !important; }
+
+/* paragraphs + table text */
+p, td, th,{
+  color: var(--color_text);
+  margin: 0 10px 5px;
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+code {
+  color: var(--color_text);
+  font-size: 12pt;
+  line-height: 1.6;
+  background: var(--callout_h5_bg);
+}
+
+/* =========================
+   FOOTER / PAGINATION
+   ========================= */
+
+section::after{
+  content: attr(data-marpit-pagination);
+  position: absolute;
+  bottom: 15px;
+  right: 40px;
+  font-size: 12pt;
+  color: var(--pagination_color);
+}
+
+.custom-footer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 12px;
+  color: var(--footer_color);
+  white-space: nowrap;
+  display: inline-block;
+  pointer-events: none;
+}
+
+/* =========================
+   UTILITIES
+   ========================= */
+
+.block{
+  border: 0px solid var(--color_text);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.page-break{
+  page-break-before: always;
+}
+
+/* =========================
+   TABLES
+   ========================= */
+
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: fit-content;
+  border: none;
+}
+
+th{
+  color: var(--th_color);
+}
+
+td{
+  color: var(--td_color);
+}
+
+th, td{
+  border: none;
+  font-size: 9px;
+  border-bottom: 1px solid var(--table_line);
+  padding: 6px 12px;
+}
+
+thead th{
+  border-bottom: 2px solid var(--table_line_header);
+}
+
+tbody tr:last-child td{
+  border-bottom: none;
+}
+
+section table thead tr th,
+section table tr:first-child th{
+  background-color: var(--table_header_bg) !important;
+}
+
+table tr:nth-child(even){
+  background-color: var(--table_row_even_bg);
+}
+
+td:nth-child(even){
+  background-color: var(--table_col_even_bg) !important;
+}
+
+/* =========================
+   ORDERED LISTS (custom counters)
+   ========================= */
+
+ol{
+  list-style: none;
+  margin: 0;
+  padding-left: 30px;
+  counter-reset: list-counter;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--color_text);
+}
+
+ol li{
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 30px;
+}
+
+ol li::before{
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  color: var(--bullet_nbr);
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+/* Only count top-level <ol> items, not nested bullets */
+ol { counter-reset: item; }
+
+ol > li { counter-increment: item; }
+
+ol > li::before {
+  content: counter(item) ".";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  color: var(--bullet_nbr);
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   UNORDERED LISTS (custom bullets)
+   ========================= */
+
+ul{
+  color: var(--lists);
+  list-style: none;
+  margin: 0;
+  padding-left: var(--list_indent);
+  font-size: var(--list_font_size, 12px);
+  line-height: var(--list_line_height, 1.4);
+}
+
+ul > li{
+  position: relative;
+  padding-left: calc(var(--bullet_size, 1em) + var(--bullet_gap, 0.7em));
+  margin: 0.25em 0;
+  font-size: 12pt;
+}
+
+ul > li::before{
+  content: var(--bullet_char, "•");
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+    transform: translateY(-10%);
+  color: var(--bullet_nbr);
+  font-size: var(--bullet_size, 1em);
+  line-height: 1;
+}
+
+ul ul{
+  margin: 0.25em 0 0;
+  padding-left: calc(var(--list_indent) * 0.8);
+}
+
+ul ul > li::before{
+  content: var(--bullet_char_nested, "–");
+}
+
+
+
+
+/* =========================
+   LISTS (ul) — clean + configurable
+   - --lists       : text color
+   - --bullet_nbr  : bullet color
+   - --bullet_char : bullet symbol
+   ========================= */
+
+/* Optional defaults (set these in :root or your theme) */
+
+:root{
+  --bullet_char: "■";
+  --bullet_char_nested: "–";
+  --list_font_size: 12pt;
+  --list_line_height: 1.4;
+  --list_indent: 12px;
+  --bullet_gap: 0.5em;
+  --bullet_size: 1em;
+}
+
+ul{
+  color: var(--lists);
+  list-style: none;                 /* we draw our own bullets */
+  margin: 0;
+  padding-left: var(--list_indent);
+  font-size: var(--list_font_size, 30px);
+  line-height: var(--list_line_height, 1.4);
+  hyphens: none;
+}
+
+/* -------------------------------------------- */
+/* Each list item reserves space for the bullet */
+/* -------------------------------------------- */
+
+ul > li{
+  position: relative;
+  padding-left: calc(var(--bullet_size, 1em) + var(--bullet_gap, 0.7em));
+  margin: 0.25em 0;                 /* tweak vertical spacing */
+  hyphens: none;
+}
+
+/* Bullet (level 1) */
+ul > li::before{
+  content: var(--bullet_char, "•");
+  position: absolute;
+  left: 0;
+  top: 0.3em;                      /* aligns bullet with first line */
+  color: var(--bullet_nbr);
+  font-size: var(--bullet_size, 1em);
+  line-height: 1;
+}
+
+/* Nested lists */
+ul ul{
+  margin: 0.25em 0 0;
+  padding-left: calc(var(--list_indent) * 0.8);
+}
+
+/* Nested bullet symbol (level 2+) */
+ul ul > li::before{
+  content: var(--bullet_char_nested, "–");
+}
+
+/* ---------------------------------- */
+/* Specific Style Tweaks for bullets
+Here are some bullet character options you can use by setting the --bullet_char and --bullet_char
+
+Classic dots
+"•" (bullet)
+"◦" (hollow bullet)
+"∙" (small dot)
+"·" (middle dot)
+Squares / diamonds
+"▪" (small square)
+"■" (square)
+"▫" (hollow small square)
+"□" (hollow square)
+"◆" (diamond)
+"◇" (hollow diamond)
+"▶" (triangle)
+"▸" (small triangle)
+Dashes / minimal
+"–" (en dash)
+"-" (hyphen)
+"→" (arrow)
+"›" (chevron)
+
+Check / plus / star
+"✓" (check)
+"✔" (heavy check)
+"+" (plus)
+"✦" (star)
+"✶" (starburst)
+
+Numbered or lettered vibes (if you want “badge”-like bullets)
+"①" "②" "③" …
+"Ⓐ" "Ⓑ" "Ⓒ" …
+---------------------------------- */
+
+
+/* ------------- */
+/* Column Styles */
+/* ------------- */
+
+/* For a slide with 2 columns */
+.columns2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  font-size:20px; /* Adjust the font size */
+}
+
+/* For a slide with 3 columns */
+.columns3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  font-size:18px; /* Adjust the font size */
+}
+
+
+/* ---------------------------------------- */
+/* Specific Style Tweaks for Small Classic */
+/* ---------------------------------------- */
+
+
+section.small p, , section.small ul, section.small ol, section.small li {
+  font-size: 14px;
+}
+
+section.small td, section.small th {
+  font-size: 8px;
+}
+
+section.small h2, section.small h3 {
+  font-size: 16px;
+}
